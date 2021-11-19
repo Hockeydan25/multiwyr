@@ -10,11 +10,11 @@
      <!--data from wouldyourather gets bond to app. Prop data in child=answer1, Parent data wyrAnswer1   -->
     <!-- message to be dispalayed on page is the selection from the binding. -->
     <p> {{ userSelectionMessage }}</p>
-    <!-- <p>You have practiced:
-      Meditation: {{ typeHours[0]}} hour(s);
-      Exercise: {{ typeHours[1]}} hour(s);
-      Homework: {{ typeHours[2]}} hour(s), 
-      and your Activies total is: {{totalHours}} hours. Great Job!</p> -->
+    <!-- <p>You selected:
+      : {{ id[0]}} hour(s);
+      : {{ id[1]}} hour(s);
+      : {{ id[2]}} hour(s), 
+      Thanks for playing!</p> -->
       
   </div>
 
