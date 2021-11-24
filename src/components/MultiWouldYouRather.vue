@@ -17,12 +17,13 @@
 <script> //start js script
 export default {
   name: 'MultiWouldYouRather', // name edited here . prop is used to send data from the parent
-  props: {
+  props: { //what we are using to inpuit, data types.
     question: String,
     answer1: String,
-    answer2: String   
+    answer2: String     
   },
-  data() { //function, returns object
+  emits: ['answer-changed'],  
+  data() { //function, returns object choice made by users, empty here so it can contain choices.
     return{ 
       choice: ''  // we want this to be unique if we have 
     }
